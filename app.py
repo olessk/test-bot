@@ -143,5 +143,3 @@ if __name__ == "__main__":
     logger.addHandler(logging.StreamHandler())
     ssl_context = ssl_lib.create_default_context(cafile=certifi.where())
     app.run(port=3000)
-set(SLACK_BOT_TOKEN = 'xoxb-1075355942967-1100919502883-fqQiARP1fwSVHOK4Fa82LrDQ')
-set(SLACK_SIGNING_SECRET = 'f413276b0bcc63cde40f4b5a084a2d2e')
