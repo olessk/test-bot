@@ -12,7 +12,7 @@ app = Flask(__name__)
 slack_events_adapter = SlackEventAdapter(os.environ['b0bafa81bd97d620af50eaba7c0ebd95'], "/slack/events", app)
 
 # Initialize a Web API client
-slack_web_client = WebClient(token=os.environ['xoxb-1075355942967-1100919502883-fqQiARP1fwSVHOK4Fa82LrDQ'])
+slack_web_client = WebClient(token=os.environ['xoxb-1075355942967-1100919502883-g8fXW3COm5AcmGXr8TSof4eF'])
 
 onboarding_tutorials_sent = {}
 
